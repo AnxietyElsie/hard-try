@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("ВЫПРЯМИ СПИНУ")
+	fmt.Println("НЕ СУТУЛЬСЯ")
 }
