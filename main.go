@@ -6,4 +6,8 @@ import (
 
 func main() {
 	fmt.Println("НЕ СУТУЛЬСЯ, пожалуйста")
+
+	go func() {
+		fmt.Println("hello from goroutine")
+	}()
 }
